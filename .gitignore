@@ -1,0 +1,5 @@
+# Tells git not to ignore these files from project
+venv/
+__pycache__/
+*sqlite3
+
