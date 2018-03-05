@@ -25,7 +25,9 @@ SECRET_KEY = '=a7p9_j7$c-^f*1pdiv_9fim%55hfgln&w7(@7v8^4$e!a7d46'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+	'rock-beach-65084.herokuapp.com'  #throws error on heroku deployment w/o specifying here
+]
 
 
 # Application definition
